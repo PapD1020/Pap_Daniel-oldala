@@ -1,0 +1,57 @@
+.navMenu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navMenu li{
+    float: left;
+  border-right:1px solid #bbb;
+}
+
+.navMenu li:last-child{
+    border-right: none;
+}
+
+.navMenu li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navMenu li a:hover:not(.active){
+    background-color: #111;
+}
+
+.active{
+    background-color: #4CAF50;
+}
+
+#termekTabla {
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+#termekTabla th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+  
+#termekTabla tr:hover {
+    background-color:#f5f5f5;
+}
+
+.bevasarloKosar{
+    width:100px;
+    height: 100px;
+}
+
+.termekKep{
+    width: 200px;
+    height: 200px;
+}
